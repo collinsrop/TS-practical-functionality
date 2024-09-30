@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	border: solid black 0.025em;
+	padding: 2em;
+	margin: 2em;
+}
+#input{
+    width: 70%;
+	margin-bottom: 1.5em;
+	height: 2em;
+	border-radius: 12%;
+}
+#btns{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3em 3em;
+	width: fit-content;
+}
+button{
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	background-color: black;
+	color: aliceblue;
+}
